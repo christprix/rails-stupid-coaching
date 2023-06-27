@@ -1,5 +1,11 @@
 <h1>Answer</h1>
+<div class="container text-left">
+  <div class="row">
+    <p><%= @question %></p>
+    <p><%= @answer %></p>
+  </div>
+</div>
 
-<h2><%= @answer %></h2>
-
-<%= link_to "Ask another question", ask_path %>
+<div class="btn btn-success">
+  <%= link_to "Ask another question", ask_path %>
+</div>
